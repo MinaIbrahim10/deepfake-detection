@@ -14,7 +14,7 @@
 - API
 - Usage
 - Contributing
-- License
+
 
 ## Project Overview
 This project focuses on developing and evaluating models for detecting deepfake content in various modalities and creating an intent-based chatbot for interacting with users regarding deepfake content. The following aspects are covered:
@@ -117,11 +117,13 @@ uvicorn api.deepfake_detection_api:app --reload
 ```
 To access notebooks for detailed analysis and model evaluation:
 jupyter notebook
-Contributing
+## Contributing
 
 Contributions are welcome! Please follow the standard GitHub workflow for contributions:
 
-    1.fork the repository
-    2.Create a new branch
-    3.Make your changes
-    4.Submit a pull request
+```bash
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Submit a pull request
+```
