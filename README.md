@@ -42,6 +42,8 @@ This project focuses on developing and evaluating models for detecting deepfake 
 │
 ├── api/
 │   └── deepfake_fast_api.py
+    └── deepfake_audio_detection_api.py
+    └── deepfake_image_detection_api.py
 │
 ├── requirements.txt
 └── README.md
