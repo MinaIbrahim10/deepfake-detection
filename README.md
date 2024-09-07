@@ -41,12 +41,13 @@ This project focuses on developing and evaluating models for detecting deepfake 
 │   └── pixel_intent_chatbot_lstm.ipynb
 │
 ├── api/
-│   └── deepfake_fast_api.py
-    └── deepfake_audio_detection_api.py
-    └── deepfake_image_detection_api.py
+│   ├── deepfake_fast_api.py
+│   ├── deepfake_audio_detection_api.py
+│   └── deepfake_image_detection_api.py
 │
 ├── requirements.txt
 └── README.md
+
 ```
 
 ## Getting Started
@@ -106,9 +107,12 @@ This project focuses on developing and evaluating models for detecting deepfake 
 
 ## API
 
-An API is provided for interfacing with the deepfake detection models. The API is implemented using FastAPI:
+An API is provided for interfacing with the deepfake detection models. The APIs are implemented using FastAPI:
 
-- **File**: `deepfake_fast_api.py`
+- **File**: `deepfake_fast_api.py` - FastAPI for deepfake text detection.
+- **File**: `deepfake_audio_detection_api.py` - FastAPI for deepfake audio detection.
+- **File**: `deepfake_image_detection_api.py` - FastAPI for deepfake image detection.
+
 
 ## Usage
 
