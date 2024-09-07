@@ -127,9 +127,9 @@ jupyter notebook
 
 Contributions are welcome! Please follow the standard GitHub workflow for contributions:
 
-```bash
+
 1. Fork the repository
 2. Create a new branch
 3. Make your changes
 4. Submit a pull request
-```
+
