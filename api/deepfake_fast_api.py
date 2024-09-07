@@ -2,21 +2,17 @@ from tensorflow import keras
 import tensorflow as tf
 import numpy as np
 from tensorflow.keras.models import Model
-#model=tf.keras.models.load_model("C://Users//Public//model2.h5")
 from fastapi import FastAPI
 from pydantic import BaseModel 
-import uvicorn
 import uvicorn
 import tensorflow as tf
 from fastapi import FastAPI, File, UploadFile 
 from keras.preprocessing import image
 from io import BytesIO
 import os
-#import json
-#import pandas as pd
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-model=tf.keras.models.load_model("xlnet_english_deepfakedetection.h5")
-model1=tf.keras.models.load_model("arabicbertfordeepfaketextdetection.h5")
+model=tf.keras.models.load_model("deepfake_english_text_detection.h5")
+model1=tf.keras.models.load_model("deepfake_arabic_text_detection.h5")
 app=FastAPI()
 async def index():
     return {"hola"}
@@ -29,15 +25,7 @@ def is_english(text):
     english_regex = re.compile(r'[a-zA-Z]+')
     return english_regex.search(text) != None
 def tokenize_data(tokenizer, texts):
-  """Tokenizes a list of text strings using the given BERT tokenizer.
 
-  Args:
-    tokenizer: A BERT tokenizer.
-    texts: A list of text strings.
-
-  Returns:
-    A list of tokenized sentences, where each sentence is a list of token IDs.
-  """
 
   tokenized_texts = []
   for text in texts:
