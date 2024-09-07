@@ -106,7 +106,7 @@ This project focuses on developing and evaluating models for detecting deepfake 
 
 An API is provided for interfacing with the deepfake detection models. The API is implemented using FastAPI:
 
-- **File**: `deepfake_detection_api.py`
+- **File**: `deepfake_fast_api.py`
 
 ## Usage
 
