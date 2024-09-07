@@ -41,7 +41,7 @@ This project focuses on developing and evaluating models for detecting deepfake 
 │   └── pixel_intent_chatbot_lstm.ipynb
 │
 ├── api/
-│   └── deepfake_detection_api.py
+│   └── deepfake_fast_api.py
 │
 ├── requirements.txt
 └── README.md
@@ -113,7 +113,7 @@ An API is provided for interfacing with the deepfake detection models. The API i
 To run the API, use the following command:
 
 ```bash
-uvicorn api.deepfake_detection_api:app --reload
+uvicorn deepfake_fast_api:app --reload
 ```
 To access notebooks for detailed analysis and model evaluation:
 jupyter notebook
