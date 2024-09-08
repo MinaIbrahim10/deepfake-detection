@@ -47,6 +47,7 @@ This project focuses on developing and evaluating models for detecting deepfake 
 │
 ├── requirements.txt
 └── README.md
+└── LICENSE.md 
 
 ```
 
@@ -123,13 +124,19 @@ uvicorn deepfake_fast_api:app --reload
 ```
 To access notebooks for detailed analysis and model evaluation:
 jupyter notebook
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
+
 ## Contributing
 
 Contributions are welcome! Please follow the standard GitHub workflow for contributions:
-
 
 1. Fork the repository
 2. Create a new branch
 3. Make your changes
 4. Submit a pull request
 
+## Contact
+
+For any questions or feedback, you can reach me at minaibrahim190@gmail.com.
